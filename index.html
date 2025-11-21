@@ -22,6 +22,7 @@
                 <li><a href="#">Profile</a></li>
                 <li><a href="#">Wishlist(0)</a></li>
                 <li><a href="#">Search</a></li>
+                <i class="ri-menu-3-fill"></i>
             </ul>
         </nav>
         <ul class="nav-menu">
@@ -36,46 +37,28 @@
         <div id="content">
             <div class="text-content">
                 <div class="elem">
-                    <div class="num">01</div>
-                    <div class="text">
-                        <div class="small-text">Lookbook</div>
-                        <div class="large-text">Johny Walker</div>
-                    </div>
+                    <div class="small-text"><span>01</span>Lookbook</div>
+                    <div class="large-text">Johny Walker</div>
                 </div>
                 <div class="elem">
-                    <div class="num">02</div>
-                    <div class="text">
-                        <div class="small-text">Lookbook</div>
-                        <div class="large-text">Trendline</div>
-                    </div>
+                    <div class="small-text"><span>02</span>Lookbook</div>
+                    <div class="large-text">Trendline</div>
                 </div>
                 <div class="elem">
-                    <div class="num">03</div>
-                    <div class="text">
-                        <div class="small-text">Lookbook</div>
-                        <div class="large-text">Blender</div>
-                    </div>
+                    <div class="small-text"><span>03</span>Lookbook</div>
+                    <div class="large-text">Blender</div>
                 </div>
                 <div class="elem">
-                    <div class="num">04</div>
-                    <div class="text">
-                        <div class="small-text">Lookbook</div>
-                        <div class="large-text">Johny Walker</div>
-                    </div>
+                    <div class="small-text"><span>04</span>Lookbook</div>
+                    <div class="large-text">Johny Walker</div>
                 </div>
                 <div class="elem">
-                    <div class="num">05</div>
-                    <div class="text">
-                        <div class="small-text">Lookbook</div>
-                        <div class="large-text">Trendline</div>
-                    </div>
+                    <div class="small-text"><span>05</span>Lookbook</div>
+                    <div class="large-text">Trendline</div>
                 </div>
                 <div class="elem">
-                    <div class="num">06</div>
-                    <div class="text">
-                        <div class="small-text">Lookbook</div>
-                        <div class="large-text">Blender</div>
-                    </div>
+                    <div class="small-text"><span>06</span>Lookbook</div>
+                    <div class="large-text">Blender</div>
                 </div>
             </div>
             <div class="image-content">
@@ -85,6 +68,18 @@
             </div>
         </div>
     </div>
+
+    <!-- can scroll horizontly in .text-content with mouse scroll -->
+    <!-- <script>
+        const scroller = document.querySelector(".text-content");
+
+        scroller.addEventListener("wheel", function (e) {
+            if (e.deltaY !== 0) {
+                e.preventDefault();            // stop vertical scroll
+                scroller.scrollLeft += e.deltaY; // move horizontally
+            }
+        }, { passive: false });
+    </script> -->
 </body>
 
 </html>
